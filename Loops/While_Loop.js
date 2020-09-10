@@ -3,7 +3,7 @@ document.write("Loop Starts.....<br><br>");
 
 while(count < 10)
 {
-    document.write("current count="+ count + "<br>");
+    document.write("current While Count="+ count + "<br>");
     count++;
 }
 

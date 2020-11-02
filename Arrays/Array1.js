@@ -1,5 +1,7 @@
 var cars = ["volvo","bmw","mercy"];
-for(var i=0; i<3; i++)
+cars.push("audi","hero")
+cars.pop()
+for(var i=0; i<cars.length; i++)
 {
     document.write("<h2>"+cars[i]+"</h2>")
 }
